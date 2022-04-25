@@ -1,0 +1,2568 @@
+{
+	"global": {
+		"submit"						: "Submit",
+		"create"						: "Create",
+		"delete"						: "Delete",
+		"edit"							: "Edit",
+		"view"							: "View",
+		"cancel"						: "Cancel",
+		"update"						: "Update",
+		"enable"						: "Enable",
+		"disable"						: "Disable",
+		"hidden"						: "Hidden",
+		"login"							: "Login",
+		"language"						: "Language",
+		"choose_language"				: "Choose Language",
+		"theme_style"					: "Switch to %s Mode",
+		"theme_style_light"				: "Light",
+		"theme_style_dark"				: "Dark",
+		"close"							: "Close",
+		"search"						: "Search",
+		"go_back_button"				: "Go Back",
+		"no_data"						: "No data available..",
+		"yes"							: "Yes",
+		"no"							: "No",
+		"active"						: "Active",
+		"disabled"						: "Disabled",
+		"captcha_placeholder"			: "Captcha text",
+		"loading"						: "Loading..",
+		"view_more"						: "View more",
+		"view_x_more"					: "View %s more..",
+		"clipboard_copy"				: "Copy to clipboard",
+		"clipboard_copied"				: "Copied!",
+		"terms_and_conditions"			: "Terms and Conditions",
+		"privacy_policy"				: "Privacy Policy",
+
+		"message_type": {
+			"error"						: "Error!",
+			"info"						: "Info!",
+			"success"					: "Success!"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Are you sure you want to delete this?",
+            "user_plan_is_expired"   	: "Your current plan has expired and your access is limited. Please get a new plan!",
+			"plan_feature_no_access"	: "Your current plan does not allow you to access this feature."
+		},
+
+		"success_message": {
+			"basic"						: "Your requested command was performed successfully!"
+		},
+
+		"error_message": {
+			"directory_not_writable"	: "Directory is not writable <strong>%s</strong>",
+			"empty_fields"				: "You must fill all the fields!",
+			"invalid_captcha"			: "The captcha code is not valid!",
+			"invalid_file_type"			: "Invalid file type!",
+			"invalid_csrf_token"		: "The action could not be finished because the protector has expired, please try again!",
+			"basic"						: "For some reason we could not perform this action."
+		},
+
+		"menu": {
+			"logout"					: "Logout",
+			"admin"						: "Admin",
+			"website"					: "Visit website",
+			"account_plan_expires"		: "%s ends on %s.",
+			"account_plan_renews"		: "%s renews on %s."
+		},
+
+		"accessibility": {
+			"toggle_navigation"			: "Toggle navigation",
+			"logo_alt"					: "Website Logo",
+			"captcha_alt"				: "Captcha",
+			"captcha_input"				: "Captcha Field"
+		},
+
+		"pagination": {
+			"previous"					: "Previous",
+			"next"						: "Next",
+			"results"					: "Showing %s-%s out of %s results."
+		},
+
+        "date": {
+			"CHANGE_THOSE_AT_YOUR_OWN_RESPONSIBILITY": "",
+			"datetime_readable_format"	: "%1$s %2$s, %3$s",
+			"datetime_small_readable_format": "%1$s %2$s",
+			"datetime_ymd_format"		: "%1$s-%2$s-%3$s",
+			"datetime_his_format"		: "%1$s:%2$s:%3$s",
+			"datetime_ymd_his_format"	: "%1$s-%2$s-%3$s %4$s:%5$s:%6$s",
+
+			"now"						: "now",
+			"cancel"					: "Cancel",
+			"apply"						: "Apply",
+			"from"						: "From",
+			"to"						: "To",
+			"custom"					: "Custom",
+			"today"						: "Today",
+			"yesterday"					: "Yesterday",
+			"last_7_days"				: "Last 7 days",
+			"last_30_days"				: "Last 30 days",
+			"this_month"				: "This month",
+			"last_month"				: "Last month",
+
+			"second"					: "second",
+			"seconds"					: "seconds",
+			"minute"					: "minute",
+			"minutes"					: "minutes",
+			"hour"						: "hour",
+			"hours"						: "hours",
+			"day"						: "day",
+			"days"						: "days",
+			"month"						: "month",
+			"months"					: "months",
+			"year"						: "year",
+			"years"						: "years",
+			"time_ago"					: "%1$s %2$s ago",
+			"time_until"				: "%1$s %2$s until",
+
+			"long_days": {
+				"1"						: "Monday",
+				"2"						: "Tuesday",
+				"3"						: "Wednesday",
+				"4"						: "Thursday",
+				"5"						: "Friday",
+				"6"						: "Saturday",
+				"7"						: "Sunday"
+			},
+
+			"short_days": {
+				"1"						: "Mon",
+				"2"						: "Tue",
+				"3"						: "Wed",
+				"4"						: "Thu",
+				"5"						: "Fri",
+				"6"						: "Sat",
+				"7"						: "Sun"
+			},
+
+			"long_months": {
+				"1"						: "January",
+				"2"						: "February",
+				"3"						: "March",
+				"4"						: "April",
+				"5"						: "May",
+				"6"						: "June",
+				"7"						: "July",
+				"8"						: "August",
+				"9"						: "September",
+				"10"					: "October",
+				"11"					: "November",
+				"12"					: "December"
+			},
+
+			"short_months": {
+				"1"						: "Jan",
+				"2"						: "Feb",
+				"3"						: "Mar",
+				"4"						: "Apr",
+				"5"						: "May",
+				"6"						: "Jun",
+				"7"						: "Jul",
+				"8"						: "Aug",
+				"9"						: "Sep",
+				"10"					: "Oct",
+				"11"					: "Nov",
+				"12"					: "Dec"
+			}
+        },
+
+        "number": {
+            "decimal_point"				: ".",
+            "thousands_separator"		: ","
+        },
+
+		"emails": {
+			"user_activation": {
+				"subject"				: "Welcome {{NAME}}! - Activation email",
+				"body"					: "Hey there {{NAME}},<br /><br />We are glad you joined us! <br /><br />One more step and you are ready,<br /><br />you just need to click the following link in order to join {{WEBSITE_TITLE}}<br /><br /><a href=\"{{ACTIVATION_LINK}}\">Activate your account</a><br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"user_pending_email": {
+				"subject"				: "Confirm your email address change - {{WEBSITE_TITLE}}",
+				"body"					: "Hey there {{NAME}},<br /><br />You have requested to change your email address from {{CURRENT_EMAIL}} to {{NEW_EMAIL}}. <br /><br />Please click on the link below to confirm your new email address. <br /><br /><a href=\"{{ACTIVATION_LINK}}\">Confirm email address change</a><br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"user_lost_password": {
+				"subject"				: "Reset your password - {{WEBSITE_TITLE}}",
+				"body"					: "Hey {{NAME}},<br /><br />This is your reset password link: <a href=\"{{LOST_PASSWORD_LINK}}\">Reset Password</a><br /><br />If you did not request this, you can ignore it!<br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"user_payment": {
+				"subject"				: "Payment received - {{WEBSITE_TITLE}}",
+				"body"					: "Hey there,<br /><br />This is a confirmation that your payment has been received by us.<br /><br />Your account plan is now paid until {{PLAN_EXPIRATION_DATE}}!<br /><br />You can also check all the <a href=\"{{USER_PAYMENTS_LINK}}\">payments</a> you made, <a href=\"{{USER_PLAN_LINK}}\">change your plan</a> or <a href=\"{{USER_PLAN_LINK}}\">cancel it</a>.<br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"admin_new_user_notification": {
+				"subject"				: "New User Registered!",
+				"body"					: "Hey!<br /><br />A new user just registered to the website!<br /><br />Welcome <strong>%s</strong> with the <strong>%s</strong> email to your website!"
+			},
+
+			"admin_new_payment_notification": {
+				"subject"				: "New Payment via %s of %s %s!",
+				"body"					: "Hey!<br /><br />A user just paid <strong>%s %s</strong> to the website!<br /><br />Here's to more earnings!"
+			}
+		},
+
+		"footer": {
+			"legal"						: "Legal",
+			"pages"						: "Pages",
+			"social"					: "Social",
+			"copyright"					: "Copyright &copy; %s %s"
+		},
+
+        "plan_settings": {
+            "no_ads"                    : "No Ads",
+
+			"unlimited_stores_limit"	: "Unlimited stores",
+			"stores_limit"				: "%s stores",
+			"unlimited_menus_limit"		: "Unlimited menus",
+			"menus_limit"				: "%s menus",
+			"unlimited_categories_limit"	: "Unlimited categories",
+			"categories_limit"				: "%s categories",
+			"unlimited_items_limit"		: "Unlimited items",
+			"items_limit"				: "%s items",
+			"unlimited_domains_limit"		: "Unlimited custom domains",
+			"domains_limit"					: "%s custom domains",
+
+			"ordering_is_enabled"			: "Ordering system",
+			"additional_domains_is_enabled"	: "Additional domains",
+			"password_protection_is_enabled": "Password protected stores",
+			"analytics_is_enabled"			: "Analytics",
+			"removable_branding_is_enabled"	: "Removable branding",
+			"custom_url_is_enabled"			: "Custom back-half URL",
+			"search_engine_block_is_enabled": "Block Search Engine indexing",
+			"custom_css_is_enabled"			: "Custom CSS styling",
+			"custom_js_is_enabled"			: "Custom JS",
+			"email_reports_is_enabled"		: "Email Reports"
+		}
+	},
+
+	"s_cart": {
+		"breadcrumb"					: "Cart",
+		"title"							: "Cart (%s)",
+		"menu"							: "My cart",
+		"header"						: "My cart",
+
+		"name"							: "Full name",
+		"number"						: "Table number",
+		"phone"							: "Phone number",
+		"address"						: "Address",
+		"message"						: "Message",
+		"message_help"					: "Leave empty if you don't want to send any custom message.",
+
+		"type"							: "Ordering type",
+		"type_on_premise"				: "On premise",
+		"type_takeaway"					: "Takeaway",
+		"type_delivery"					: "Delivery",
+
+		"remove"						: "Remove",
+		"total"							: "Total",
+		"order"							: "Place order",
+		"quantity"						: "Quantity",
+
+		"order_done"					: "Your order has been sent!",
+		"order_done_help"				: "Thank you!",
+
+		"no_data"						: "Your cart is empty..",
+		"no_data_help"					: "Start by adding some items to your cart and come back!"
+	},
+
+	"s_store": {
+		"breadcrumb"					: "Store",
+
+		"menus"							: "Menus",
+		"view_menu"						: "View menu",
+
+		"email"							: "Email us",
+		"website"						: "Our website",
+		"open"							: "Open Now",
+		"closed"						: "Closed",
+
+		"password": {
+			"title"						: "Password protected store",
+			"header"					: "Password protected store",
+			"subheader"					: "You must input the correct password to see the content of the store. Your password will be remembered for 30 days.",
+
+			"input"						: "Password",
+
+			"error_message"				: "The store password is incorrect!"
+		},
+
+		"share": {
+			"header"					: "Share via:",
+			"facebook"					: "Facebook",
+			"twitter"					: "Twitter",
+			"email"						: "Email",
+			"whatsapp"					: "Whatsapp",
+			"facebook_messenger"		: "Fb Messenger"
+		},
+
+		"branding"						: "Powered by %s"
+	},
+
+	"s_menu" : {
+		"breadcrumb"					: "Menu",
+		"title"							: "%s (%s)",
+		"header"						: "%s menu"
+	},
+
+	"s_category" : {
+		"breadcrumb"					: "Category",
+		"title"							: "%s - %s (%s)"
+	},
+
+	"s_item": {
+		"breadcrumb"					: "Item",
+		"title"							: "%s - %s - %s (%s)",
+		"view"							: "View more details",
+
+		"extras"						: "Extras",
+		"variants"						: "Pick & choose",
+
+		"add_to_cart"					: "Add to cart",
+		"added_to_cart"					: "Added!"
+	},
+
+	"page": {
+		"breadcrumb"					: "Page",
+		"print"							: "Print",
+
+		"estimated_reading_time"		: "%s read",
+		"last_date"						: "Last updated on: %s"
+	},
+
+	"pages": {
+		"title"							: "Pages",
+		"header"						: "Resources center",
+		"subheader"						: "Here you can find useful page resources depending on your needs.",
+		"total_views"					: "(%s views)",
+
+		"index": {
+			"breadcrumb"				: "Pages",
+
+			"popular_pages": {
+				"header"				: "Popular pages"
+			},
+
+			"pages_categories": {
+				"header"				: "Categories",
+				"total_pages"			: "%s available pages"
+			}
+		},
+
+		"pages_category": {
+			"breadcrumb"				: "Pages Category"
+		}
+	},
+
+	"plan": {
+		"breadcrumb"					: "Choose plan",
+		"title"							: "Plan",
+		"menu"							: "Pricing",
+		"header_new"					: "Choose your plan",
+		"subheader_new"					: "Select the most convenient plan for you.",
+		"header_renew"					: "Renew or change your plan",
+		"subheader_renew"				: "Select one plan to renew or change your subscription.",
+		"header_upgrade"				: "Upgrade your plan",
+		"subheader_upgrade"				: "Select one package to upgrade your subscription.",
+
+		"guest": {
+			"price"						: "Guest",
+			"help"						: "No registration required."
+		},
+
+		"free": {
+			"price"						: "Free",
+			"help"						: "No strings attached."
+		},
+
+		"trial": {
+			"price"						: "Trial",
+			"help"						: "30 days, no credit card needed."
+		},
+
+		"custom_plan": {
+			"monthly"					: "Monthly",
+			"annual"					: "Annual",
+			"lifetime"					: "Lifetime",
+			"monthly_payments"			: "Monthly payments.",
+			"annual_payments"			: "Annual payments.",
+			"lifetime_payments"			: "Lifetime payments.",
+			"annual_savings"			: "%s %s"
+		},
+
+		"button": {
+			"choose"					: "Choose plan",
+			"disabled"					: "Disabled",
+			"already_free"				: "Your plan"
+		},
+
+		"why": {
+			"header"					: "Why us?",
+			"subheader"					: "",
+
+			"one": {
+				"header"				: "Customer service",
+				"subheader"				: "Our support team will help you with any questions you may have regarding our product."
+			},
+
+			"two": {
+				"header"				: "Privacy",
+				"subheader"				: "We appreciate you and your privacy. This is why you control all the data that you bring with an account on our website."
+			},
+
+			"three": {
+				"header"				: "Quality",
+				"subheader"				: "We focus on delivering the best experience to you, as we fully understand how valuable time is."
+			}
+		},
+
+		"faq": {
+			"header"					: "FAQ",
+			"subheader"					: "Here are the top most asked questions and their straight forward answers.",
+
+			"one": {
+				"header"				: "What forms of payment do you accept?",
+				"text"					: "We accept payments via credit cards (Visa, Mastercard, Maestro, American Express) and PayPal as well."
+			},
+
+			"two": {
+				"header"				: "Can I cancel my subscription?",
+				"text"					: "Yes, you definitely can cancel your subscription and, you will still have access to all the features that you already paid for until the end of paid date range."
+			},
+
+			"three": {
+				"header"				: "Will I get an invoice?",
+				"text"					: "Yes, an invoice will be automatically generated for you after any payments from your account."
+			},
+
+			"four": {
+				"header"				: "Can I have a refund?",
+				"text"					: "We do offer refunds in case something goes wrong or you change your mind, simply contact us if needed."
+			}
+		}
+	},
+
+	"pay": {
+		"breadcrumb"					: "%s plan",
+		"title"							: "Pay",
+		"plan_details"					: "What you'll get",
+		"accept"						: "By continuing with your order you confirm that you read, understand & agree to the %s and %s of the site.",
+
+		"free": {
+			"free_already"				: "Your already have the free plan activated!",
+			"other_plan_not_expired"	: "Your current plan is not expired yet, you will get the free plan after it expires!"
+		},
+
+		"trial": {
+			"header"					: "Start the %s plan",
+			"subheader"					: "You are almost there.",
+
+			"trial_done"				: "Your trial option was already used, you can't renew it anymore.",
+			"other_plan_not_expired"	: "Your current plan is not expired yet, if you start your trial it will override it!",
+			"trial_start"				: "Start my %s days trial"
+		},
+
+		"custom_plan": {
+			"header"					: "Purchase the %s plan",
+			"subheader"					: "You are almost there, complete the following form and checkout.",
+
+			"paypal"					: "PayPal",
+			"stripe"					: "Stripe",
+			"offline_payment"			: "Offline payment",
+
+			"payment_frequency"			: "Payment frequency",
+			"monthly"					: "Monthly Payments",
+			"annual"					: "Annual Payments",
+			"annual_savings"			: "%s %s",
+			"lifetime"					: "Lifetime deal",
+			"lifetime_help"				: "One time payment",
+
+			"code_button"				: "I have a discount code",
+			"code" 						: "Discount code",
+
+			"payment_processor"			: "Payment method",
+			"no_processor"				: "There are no payment processors available at the moment.",
+			"offline_payment_instructions": "Payment instructions",
+			"offline_payment_proof"		: "Proof of payment",
+			"offline_payment_proof_help": "Upload the proof of payment (jpg, jpeg, png or pdf).",
+
+			"payment_type"				: "Type of payment",
+			"one_time_type"				: "One Time Payment",
+			"recurring_type"            : "Recurring Payment",
+
+			"summary": {
+				"header"				: "Order summary",
+
+				"plan"					: "Plan",
+
+				"payment_frequency"		: "Frequency",
+				"monthly"				: "Monthly",
+				"monthly_help"			: "Every 30 days",
+				"annual"				: "Yearly",
+				"annual_help"			: "Every 365 days",
+				"lifetime"				: "Lifetime",
+				"lifetime_help"			: "",
+
+				"payment_processor"		: "Paid with",
+
+				"payment_type"			: "Type",
+				"one_time"				: "One time",
+				"one_time_help"			: "",
+				"recurring"				: "Recurring",
+				"recurring_help"		: "Automatic billing",
+
+				"plan_price"			: "Price",
+
+				"discount"				: "Discount",
+
+				"tax_inclusive"			: "Inclusive",
+				"tax_exclusive"			: "Exclusive",
+
+				"total"					: "Total"
+			},
+
+			"pay"						: "Checkout",
+			"billing_required"			: "Fill in your billing details"
+		},
+
+		"success_message": {
+			"code"						: "Applied discount code for %s."
+		},
+
+		"error_message": {
+			"code_invalid"				: "This discount code is invalid..",
+			"code_used"					: "You have already used this discount code..",
+			"canceled_payment"			: "It seems you've canceled the payment for some reason.",
+			"failed_payment"			: "Something didn't work quite right, please try again if this persists contact the site admin.",
+			"offline_payment_proof_missing": "You must upload a payment proof before submitting the payment order."
+		}
+	},
+
+	"pay_thank_you" : {
+		"title"							: "Thank you",
+		"header"						: "Thank you!",
+		"button"						: "Go to my dashboard",
+
+		"plan_trial_start"				: "Your trial period just started!",
+		"plan_custom_start"				: "Your payment went through and your new membership is activated!",
+		"plan_custom_will_start" 		: "Your payment was sent and your new membership will be activated!",
+		"plan_custom_pending" 			: "Your payment order was sent and your new membership will be activated if the proof will be accepted!"
+	},
+
+	"account": {
+		"title"							: "Account",
+		"menu"							: "Account",
+
+		"plan": {
+			"header"				    : "%s Plan",
+			"subheader"			    	: "ends on %s",
+			"upgrade_plan"				: "Upgrade Plan",
+			"renew_plan"				: "Renew/Change Plan"
+		},
+
+		"settings": {
+			"header"					: "Settings",
+			"subheader"					: "Basic profile settings of your account.",
+
+			"email"						: "Email",
+			"name"						: "Name",
+			"timezone"					: "Timezone",
+			"timezone_help"				: "Your preferred way of displaying dates."
+		},
+
+		"billing": {
+			"header"					: "Billing details",
+			"subheader"					: "These billing details are used when generating invoices after a successful payment.",
+
+			"subscription_id_active"	: "You have an active subscription, you can't change the billing details until the subscription expires or is cancelled.",
+
+			"type"						: "Type",
+			"type_personal"				: "Personal",
+			"type_business"				: "Business",
+			"name"						: "Name",
+			"address"					: "Address",
+			"city"						: "City",
+			"county"					: "County",
+			"country"					: "Country",
+			"zip"						: "ZIP",
+			"phone"						: "Phone",
+			"tax_id"					: "Tax ID"
+		},
+
+		"change_password": {
+			"header"					: "Change Password",
+			"subheader"					: "If you do not want to change your password, do not fill any of those fields below.",
+
+			"current_password"			: "Current Password",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"twofa": {
+			"header"					: "Two-factor authentication",
+			"subheader"					: "Use a mobile authentication app to get a verification code to enter every time you log in.",
+
+			"is_enabled"				: "Enable Two-factor authentication",
+			"qr"						: "1. Scan QR Code",
+			"qr_help"					: "Open the authentication app (ex: Authy, Google Authenticator) on your mobile device and scan the following QR Code with your camera.",
+
+			"secret"					: "Can't scan the QR Code?",
+			"secret_help"				: "Try inserting the following secret code into your app if you can't scan the QR Code.",
+
+			"verify"					: "2. Enter freshly generated token",
+			"verify_help"				: "To confirm that you setup your code properly, please enter the 8-digit token from your mobile app."
+		},
+
+		"info_message": {
+			"user_pending_email"		: "An email confirmation was sent to the new email address. Make sure to check and confirm it via email."
+		},
+
+		"error_message": {
+			"invalid_current_password"	: "Your current password is not valid!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match",
+			"twofa_check"				: "The token that you entered is not valid, please try again to setup the Two-factor authentication system."
+		},
+
+		"success_message": {
+			"account_updated"			: "Your account was updated!",
+            "subscription_canceled"     : "Your recurring subscription was canceled!"
+		}
+	},
+
+	"account_delete": {
+		"title"							: "Delete account",
+		"menu"							: "Delete account",
+		"header"						: "Delete account",
+		"subheader"						: "By deleting the account, all of your stored data will be deleted. This action is irreversible once done.",
+		"current_password"				: "Current Password",
+
+		"error_message": {
+			"invalid_current_password"	: "Your current password is not valid!"
+		}
+	},
+
+	"domains": {
+		"breadcrumb"					: "Custom domains",
+		"title"							: "Custom domains",
+		"menu"							: "Custom domains",
+		"header"						: "Custom domains",
+		"subheader"						: "Here you can add your own custom domain to use with your stores.",
+		"create"						: "Connect custom domain",
+
+		"table": {
+			"host"						: "Domain",
+			"datetime"					: "Date",
+			"is_enabled"				: "Status",
+			"is_enabled_pending"		: "Pending activation",
+			"is_enabled_active"			: "Active"
+		},
+
+		"input": {
+			"help"						: "Make sure that your domain or subdomain has an A record pointing to %s or CNAME record pointing to %s.",
+			"host"						: "Domain or subdomain",
+			"host_placeholder"			: "domain.com",
+			"custom_index_url"			: "Custom index URL",
+			"custom_index_url_help"		: "Redirect to a specific url when visitors land on the index of the domain, in case you don't want to use the custom domain for a single store.",
+			"custom_index_url_placeholder": "https://domain.com/"
+		},
+
+		"error_message": {
+			"domains_limit"				: "Your current plan does not allow you to connect another custom domain."
+		},
+
+		"no_data"						: "There are no custom domains added",
+		"no_data_help"					: "Start by linking your first custom domain."
+	},
+
+	"domain_create": {
+		"breadcrumb"					: "Connect custom domain",
+		"title"							: "Connect custom domain",
+		"menu"							: "Connect custom domain",
+		"header"						: "Connect custom domain",
+		"success_message"				: "Your custom domain has been submitted for approval and processing!"
+	},
+
+	"domain_update": {
+		"breadcrumb"					: "Update custom domain",
+		"title"							: "Update custom domain",
+		"menu"							: "Update custom domain",
+		"header"						: "Update custom domain",
+		"success_message"				: "Your custom domain update has been submitted for approval and processing!"
+	},
+
+	"domain_delete_modal": {
+		"header"						: "Delete domain",
+		"subheader"						: "By deleting the domain, all the data associated with the domain will be lost, including all the stores associated with it. This action cannot be undone.",
+
+		"success_message"				: "Domain deletion was performed successfully!"
+	},
+
+	"account_plan": {
+		"title"							: "Account Plan",
+		"menu"							: "Plan",
+		"header"						: "Account Plan",
+
+		"plan":{
+			"renews"					: "Plan will renew on %s",
+			"expires"					: "Plan ends on %s"
+		},
+
+		"cancel": {
+			"header"					: "Cancel Subscription",
+			"subheader"					: "By cancelling your subscription no further payments will be made. You will still have access to your features that you paid for until the expiration date.",
+			"cancel"					: "Cancel Subscription",
+			"confirm_message"			: "Are you sure you want to cancel the next billing of your subscription?"
+		},
+
+		"code": {
+			"header"					: "Redeem",
+			"subheader"					: "Redeeming a code will cancel your current plan and automatically switch you to the new plan associated with the code.",
+
+			"input"						: "Redemption code",
+			"submit"					: "Activate"
+		},
+
+		"success_message": {
+			"code_redeemed"				: "Code has been successfully redeemed!",
+			"code"						: "Redeemable code is available: %s for %s days."
+		},
+
+		"error_message": {
+			"code_invalid"				: "This redeemable code is invalid..",
+			"code_used"					: "You have already used this redeemable code.."
+		}
+	},
+
+	"account_payments": {
+		"title"							: "Account Payments",
+		"menu"							: "Payments",
+		"header"						: "Account Payments",
+		"subheader"						: "All the payments made on your account.",
+
+		"payments": {
+			"customer"					: "Customer",
+			"type"						: "Type",
+			"date"						: "Date",
+			"name"						: "Full Name",
+			"total_amount"				: "Total Amount",
+			"plan_id"					: "Plan",
+			"invoice"					: "Invoice",
+			"status_pending"			: "Pending approval",
+			"status_approved"			: "Approved",
+
+			"no_data"					: "No payments for now.."
+		}
+	},
+
+	"account_logs": {
+		"title"							: "Account Logs",
+		"menu"							: "Logs",
+		"header"						: "Account Logs",
+		"subheader"						: "A list of your most important recorded activity.",
+
+		"logs": {
+			"type"						: "Type",
+			"ip"						: "IP",
+			"date"						: "Date",
+
+			"no_data"					: "Your account has no recorded logs..",
+			"no_data_help"				: "Here you will be able to find important log entries regarding your account."
+		}
+	},
+
+	"account_api": {
+		"title"							: "Account API",
+		"menu"							: "API",
+		"header"						: "API",
+		"subheader"						: "Your API key. If needed, you can get a new one by hitting the button below. Looking for the %sAPI Documentation?%s",
+		"api_key"						: "API Key",
+		"button"						: "Regenerate API Key",
+		"success_message"				: "Your API key was regenerated successfully!"
+	},
+
+	"invoice": {
+		"print"							: "Print",
+		"invoice"						: "INVOICE",
+		"invoice_nr"					: "Invoice Nr",
+		"invoice_date"					: "Date",
+
+		"vendor"						: "Vendor",
+		"customer"						: "Customer",
+
+		"name"							: "Name",
+		"address"						: "Address",
+		"city"							: "City",
+		"county"						: "County",
+		"zip"							: "ZIP",
+		"country"						: "Country",
+		"email"							: "Email",
+		"phone"							: "Phone",
+		"tax_id"						: "Tax ID",
+
+		"table": {
+			"item"						: "Item",
+			"amount"					: "Amount",
+
+			"plan"						: "%s Plan",
+			"frequency"					: "%s access.",
+			"frequency_monthly"			: "30 days",
+			"frequency_annual"			: "1 year",
+			"frequency_lifetime"		: "Lifetime",
+
+			"code"						: "Discount",
+			"code_help"					: "Code used: %s",
+
+			"total"						: "Total",
+			"paid_via"					: "Paid via %s"
+		}
+	},
+
+	"reset_password": {
+		"title"							: "Reset Password",
+		"header"						: "Reset Password",
+		"return"						: "Return to Login",
+
+		"form": {
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"error_message": {
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match"
+		},
+
+		"success_message": {
+			"password_updated"			: "Your password has been updated!"
+		}
+	},
+
+	"login": {
+		"menu"							: "Sign in",
+		"title"							: "Sign in",
+		"header"						: "Sign in",
+
+		"form": {
+			"email" 					: "Email Address",
+			"password"					: "Password",
+			"twofa_token"				: "Two-factor token",
+			"remember_me"				: "Remember me",
+			"login"						: "Login"
+		},
+
+		"display": {
+			"register"					: "Don't have an account? %s",
+			"register_help"				: "Register",
+
+			"lost_password"				: "Lost Password",
+			"resend_activation"			: "Resend Activation",
+			"facebook"					: "%s Facebook Login"
+		},
+
+		"info_message": {
+			"twofa_token"				: "Use your authenticator app to get the token for the Two-factor authentication.",
+			"logged_in"					: "Welcome back!"
+		},
+
+		"error_message": {
+			"twofa_token"				: "Your two-factor authentication token is invalid!",
+			"wrong_login_credentials"	: "Your login combination is invalid!",
+			"user_not_active"			: "Your account is not confirmed or banned!",
+			"email_is_null"				: "Your facebook account doesn't have an email associated with it, we could not finish the Facebook login process."
+		}
+	},
+
+	"lost_password": {
+		"title"							: "Lost Password",
+		"header"						: "Lost Password",
+		"return"						: "Return to Login",
+
+		"form": {
+			"email" 					: "Email"
+		},
+
+		"notice_message": {
+			"success"					: "We sent an email to that accounts address if an account is registered with it!"
+		}
+	},
+
+	"resend_activation": {
+		"title"							: "Resend Activation",
+		"header"						: "Resend Activation Email",
+		"return"						: "Return to Login",
+
+		"form": {
+			"email" 					: "Email"
+		},
+
+		"notice_message": {
+			"success"					: "We sent an email to that accounts address if an account is registered with it!"
+		}
+	},
+
+	"activate_user": {
+		"user_activation"				: "Your account has been confirmed and is now active!",
+		"user_pending_email"			: "Your new email address has been confirmed!"
+	},
+
+	"register": {
+		"title"							: "Sign up",
+		"menu"							: "Sign up",
+		"header"						: "Sign up",
+
+		"form": {
+			"name"						: "Name",
+			"email"						: "Email",
+			"password"					: "Password",
+			"repeat_password"			: "Repeat Password",
+			"accept"					: "I confirm that I have read and understood the %s and %s of the site.",
+			"register"					: "Register"
+		},
+
+		"display": {
+			"login"						: "Already have an account? %s",
+			"login_help"				: "Sign in"
+		},
+
+		"error_message": {
+			"username_length"			: "Username must be between 3 and 32 characters!",
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"email_exists"				: "We're sorry, but that email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match",
+			"username_characters"		: "You can only use letters, digits and the '.', '_' characters for your username field"
+		},
+
+
+		"success_message": {
+			"registration"				: "Your account has been created, check your email for the activation link! ( Make sure to check your spam folder too )",
+			"login"						: "Welcome to our platform, we are grateful to have you here!"
+		}
+	},
+
+	"dashboard": {
+		"breadcrumb"					: "Dashboard",
+		"title"							: "Dashboard",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
+
+		"no_data"						: "There are no created stores",
+		"no_data_help"					: "Start by creating your first store."
+	},
+
+	"statistics": {
+		"breadcrumb"					: "Statistics",
+		"title"							: "%s statistics",
+		"menu"							: "Statistics",
+		"header"						: "%s statistics",
+
+		"pageviews"						: "Pageviews",
+
+		"statistics": {
+			"latest"					: "Latest visits",
+			"latest_help"				: "Here you can see the latest visits.",
+
+			"country"					: "Countries",
+			"country_help"				: "Discover the countries that your visitors are from.",
+			"country_unknown"			: "Unknown",
+
+			"os"						: "Operating Systems",
+			"os_help"					: "Discover the operating systems that your visitors are using.",
+			"os_unknown"				: "Unknown",
+
+			"browser"					: "Browsers",
+			"browser_help"				: "Discover the browsers that your visitors are using.",
+			"browser_unknown"			: "Unknown",
+
+			"language"					: "Browser Languages",
+			"language_help"				: "Discover the browser languages that your visitors are having.",
+			"language_unknown"			: "Unknown",
+
+			"device"					: "Devices",
+			"device_help"				: "Discover the devices that your visitors are using.",
+			"device_unknown"			: "Unknown",
+			"device_desktop"			: "Desktop",
+			"device_tablet"				: "Tablet",
+			"device_mobile"				: "Mobile",
+
+			"referrer"					: "Referrers",
+			"referrer_help"				: "Discover where your traffic is coming from.",
+			"referrer_direct"			: "Direct",
+			"referrer_qr"				: "QR Code"
+		},
+
+		"no_data"						: "There are no statistics available for this date range",
+		"no_data_help"					: "Wait until you get some traffic and come back."
+	},
+
+	"store": {
+		"breadcrumb"					: "Store",
+		"title"							: "%s store",
+		"menu"							: "Store",
+		"header"						: "%s store",
+		"create"						: "Create store",
+		"external_url"					: "View store",
+
+		"stores"						: "Stores",
+		"timezone"						: "%s timezone",
+		"currency"						: "%s currency",
+		"datetime"						: "Created on %s",
+		"pageviews"						: "%s Pageviews",
+
+		"input": {
+			"domain_id"					: "Domain",
+			"domain_id_help"			: "Select the domain that you'd like to use to create your store with.",
+			"is_main_store"				: "Exclusive store for this custom domain",
+			"is_main_store_help"		: "Make this store to be accessible via the index of this custom domain. Other stores won't be able to be associated with this domain after.",
+			"url"						: "URL Alias",
+			"url_placeholder"			: "my-awesome-store",
+			"url_help"					: "The main URL that your store is going to be able accessed from.",
+			"name"						: "Name",
+			"name_placeholder"			: "My awesome store",
+			"title"						: "Title",
+			"title_help"				: "Short & descriptive title of your store.",
+			"description"				: "Description",
+			"description_help"			: "Short description of your store.",
+			"logo"						: "Logo",
+			"logo_help"					: "Your store's logo, recommended 1:1 ration for the logo (jpg, jpeg, png, gif or svg).",
+			"favicon"					: "Favicon",
+			"favicon_help"				: "Your store's favicon, recommended 1:1 ration for the favicon (jpg, jpeg, png, gif or ico).",
+			"image"						: "Cover",
+			"image_help"				: "Your store's cover image (jpg, jpeg, png, gif or svg).",
+			"custom_css"				: "Custom CSS",
+			"custom_css_help"			: "Custom CSS to overwrite the already existing store style.",
+			"custom_js"					: "Custom JS",
+			"custom_js_help"			: "You could add your own tracking javascript code to the store, for example.",
+			"email_reports_is_enabled"		: "Email reports",
+			"email_reports_is_enabled_help"	: "Get casual analytics email reports of your store.",
+			"on_premise_ordering_is_enabled"			: "Enable on premise ordering",
+			"on_premise_ordering_is_enabled_help"		: "Your store guests will be able to order via the menu for on premise orders.",
+			"takeaway_ordering_is_enabled"				: "Enable takeaway ordering",
+			"takeaway_ordering_is_enabled_help"			: "Your store guests will be able to order via the menu for takeaway orders.",
+			"delivery_ordering_is_enabled"				: "Enable delivery ordering",
+			"delivery_ordering_is_enabled_help"			: "Your store guests will be able to order via the menu for delivered orders.",
+			"address"					: "Address",
+			"address_help"				: "Full address of your store.",
+			"phone"						: "Phone number",
+			"phone_placeholder"			: "",
+			"website"					: "Website",
+			"website_placeholder"		: "https://yourwebsite.com/",
+			"email"						: "Email",
+			"email_placeholder"			: "name@email.com",
+			"password"					: "Password",
+			"password_help"				: "Require visitors to enter a password to see the content of the store.",
+			"currency"					: "Currency",
+			"currency_help"				: "Main currency code of the store (ex: EUR, USD, GBP).",
+			"timezone"					: "Timezone",
+			"timezone_help"				: "Main timezone of the store.",
+			"hours"						: "Open hours",
+			"hours_help"				: "Write in your business hours. Ex: 10:00 AM - 10:00 PM, 24/7...",
+			"hours_end"					: "End hours",
+			"is_enabled"				: "Store is enabled",
+			"is_enabled_help"			: "The main switch that makes the store keep working.",
+			"is_se_visible"				: "Search Engine visibility",
+			"is_se_visible_help"		: "If disabled, the store will not be indexed by search engines, such as Google or Bing.",
+			"is_removed_branding"		: "Remove branding",
+			"is_removed_branding_help"	: "If enabled, the store won't show the branding of our website.",
+			"facebook"					: "Facebook",
+			"facebook_placeholder"		: "your-facebook-page-name",
+			"twitter"					: "Twitter",
+			"twitter_placeholder"		: "your-twitter-username",
+			"youtube"					: "YouTube",
+			"youtube_placeholder"		: "Channel ID",
+			"instagram"					: "Instagram",
+			"instagram_placeholder"		: "your-instagram-username"
+		},
+
+		"error_message": {
+			"url_exists"				: "This store URL is already taken. Please choose a new one!",
+			"stores_limit"				: "Your current plan does not allow you to create another store."
+		},
+
+		"no_data"						: "There are no created menus for this store",
+		"no_data_help"					: "Start by creating your first menu."
+	},
+
+	"store_create": {
+		"breadcrumb"					: "Create store",
+		"title"							: "Create store",
+		"header"						: "Create a new store",
+		"info"							: "You can set up more details about the store after the creation.",
+
+		"success_message"				: "Your new store has been created and is now ready!"
+	},
+
+	"store_update": {
+		"breadcrumb"					: "Edit store",
+		"title"							: "Edit %s store",
+		"header"						: "Edit %s store",
+
+		"main"							: "Main",
+		"ordering"						: "Ordering",
+		"extra"							: "Extra",
+		"visuals"						: "Visuals",
+		"socials"						: "Socials",
+
+		"success_message"				: "Your store has been updated with the new settings!"
+	},
+
+	"store_qr": {
+		"breadcrumb"					: "Store QR",
+		"title"							: "%s store QR code",
+		"menu"							: "QR Code",
+		"header"						: "%s store QR code",
+		"subheader"						: "This QR code is meant to be downloaded, printed and placed onto where your store customers can see and access it.",
+
+		"configurator": {
+			"header"					: "QR Configurator",
+
+			"foreground_color"			: "Foreground color",
+			"background_color"			: "Background color",
+			"corner_radius"				: "Corner radius",
+			"type"						: "QR Type",
+			"type_normal"				: "Normal",
+			"type_text"					: "Insert custom text",
+			"type_image"				: "Insert custom logo",
+
+			"text"						: "Custom text",
+			"text_color"				: "Text color",
+			"text_size"					: "Text size",
+
+			"image"						: "Image",
+			"image_size"				: "Image size"
+		},
+
+		"print"							: "Print",
+		"download"						: "Download",
+
+		"success_message"				: "Your store has been updated with the new settings!"
+	},
+
+	"store_delete_modal": {
+		"header"						: "Delete store",
+		"subheader"						: "By deleting the store, all the data associated with the store will be lost. This action cannot be undone.",
+
+		"success_message"				: "Store deletion was performed successfully!"
+	},
+
+	"orders": {
+		"breadcrumb"					: "Store orders",
+		"title"							: "%s store orders",
+		"menu"							: "Orders",
+		"header"						: "%s store orders",
+		"subheader"						: "Leave this page open to see and receive orders from your customers.",
+
+		"view"							: "View order",
+		"name"							: "Name: %s",
+		"price_currency"				: "Price: %s %s",
+		"datetime"						: "Created on %s",
+
+		"no_data"						: "There are no orders for now",
+		"no_data_help"					: ""
+	},
+
+	"order": {
+		"breadcrumb"					: "Order",
+		"title"							: "View order",
+		"menu"							: "Order",
+		"header"						: "View order",
+
+		"price"							: "Price",
+		"datetime"						: "Date",
+		"name"							: "Name",
+		"number"						: "Number",
+		"phone"							: "Phone",
+		"address"						: "Address",
+		"message"						: "Message",
+		"total"							: "Total",
+		"quantity"						: "Quantity: %s",
+		"status"						: "Status",
+
+		"status_pending"				: "Pending",
+		"status_complete"				: "Done",
+
+		"type"							: "Type",
+		"type_on_premise"				: "On premise",
+		"type_takeaway"					: "Takeaway",
+		"type_delivery"					: "Delivery",
+
+		"delete"						: "Delete order",
+		"finish"						: "Finish order",
+
+		"success_message_complete"		: "The order status has been changed to completed!"
+	},
+
+	"order_delete_modal": {
+		"header"						: "Delete order",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Order deletion was performed successfully!"
+	},
+
+	"menu": {
+		"breadcrumb"					: "Menu",
+		"title"							: "%s menu",
+		"menu"							: "Menu",
+		"header"						: "%s menu",
+		"create"						: "Create menu",
+		"external_url"					: "View menu",
+
+		"menus"							: "Menus",
+		"datetime"						: "Created on %s",
+		"pageviews"						: "%s Pageviews",
+
+		"input": {
+			"url"						: "URL Alias",
+			"url_placeholder"			: "menu-name",
+			"url_help"					: "The menu URL that your menu is going to be able accessed from.",
+			"name"						: "Name",
+			"name_placeholder"			: "My awesome menu",
+			"description"				: "Description",
+			"description_help"			: "Short description of your menu.",
+			"image"						: "Cover",
+			"image_help"				: "Your menu's cover image (jpg, jpeg, png, gif or svg).",
+			"is_enabled"				: "Menu is enabled",
+			"is_enabled_help"			: "Easily enable or disable the menu completely."
+		},
+
+		"error_message": {
+			"url_exists"				: "This menu already exists. Please choose a new one!",
+			"menus_limit"				: "Your current plan does not allow you to create another menu."
+		},
+
+		"no_data"						: "There are no created categories for this menu",
+		"no_data_help"					: "Start by creating your first category."
+	},
+
+	"menu_create": {
+		"breadcrumb"					: "Create menu",
+		"title"							: "Create menu",
+		"header"						: "Create a new menu",
+
+		"success_message"				: "Your new menu has been created and is now ready!"
+	},
+
+	"menu_update": {
+		"breadcrumb"					: "Edit menu",
+		"title"							: "Edit %s menu",
+		"header"						: "Edit %s menu",
+
+		"success_message"				: "Your menu has been updated with the new settings!"
+	},
+
+	"menu_delete_modal": {
+		"header"						: "Delete menu",
+		"subheader"						: "By deleting the menu, all the data associated with the menu will be lost. This action cannot be undone.",
+
+		"success_message"				: "Menu deletion was performed successfully!"
+	},
+
+	"category": {
+		"breadcrumb"					: "Category",
+		"title"							: "%s category",
+		"menu"							: "Category",
+		"header"						: "%s category",
+		"create"						: "Create category",
+		"external_url"					: "View category",
+
+		"categories"					: "Categories",
+		"datetime"						: "Created on %s",
+		"pageviews"						: "%s Pageviews",
+
+		"input": {
+			"url"						: "URL Alias",
+			"url_placeholder"			: "category-name",
+			"url_help"					: "The category URL that your category is going to be able accessed from.",
+			"name"						: "Name",
+			"name_placeholder"			: "My awesome category",
+			"description"				: "Description",
+			"description_help"			: "Short description of your category.",
+			"is_enabled"				: "Category is enabled",
+			"is_enabled_help"			: "Easily enable or disable the category completely."
+		},
+
+		"error_message": {
+			"url_exists"				: "This category already exists. Please choose a new one!",
+			"categories_limit"			: "Your current plan does not allow you to create another category."
+		},
+
+		"no_data"						: "There are no created items for this category",
+		"no_data_help"					: "Start by creating your first item."
+	},
+
+	"category_create": {
+		"breadcrumb"					: "Create category",
+		"title"							: "Create category",
+		"header"						: "Create a new category",
+
+		"success_message"				: "Your new category has been created and is now ready!"
+	},
+
+	"category_update": {
+		"breadcrumb"					: "Edit category",
+		"title"							: "Edit %s category",
+		"header"						: "Edit %s category",
+
+		"success_message"				: "Your category has been updated with the new settings!"
+	},
+
+	"category_delete_modal": {
+		"header"						: "Delete category",
+		"subheader"						: "By deleting the category, all the data associated with the category will be lost. This action cannot be undone.",
+
+		"success_message"				: "Category deletion was performed successfully!"
+	},
+
+	"item": {
+		"breadcrumb"					: "Item",
+		"title"							: "%s item",
+		"menu"							: "Item",
+		"header"						: "%s item",
+		"create"						: "Create item",
+		"external_url"					: "View item",
+
+		"items"							: "Items",
+		"price_currency"				: "%s %s",
+		"datetime"						: "Created on %s",
+		"pageviews"						: "%s Pageviews",
+
+		"input": {
+			"url"						: "URL Alias",
+			"url_placeholder"			: "item-name",
+			"url_help"					: "The item URL that your item is going to be able accessed from.",
+			"name"						: "Name",
+			"name_placeholder"			: "My awesome item",
+			"description"				: "Description",
+			"description_help"			: "Short description of your item.",
+			"image"						: "Image",
+			"image_help"				: "Your item's image (jpg, jpeg, png, gif or svg).",
+			"price"						: "Price",
+			"variants_is_enabled"		: "Variants",
+			"variants_is_enabled_help"	: "Enable the ability to have multiple prices on this product based on variants that you create.",
+			"is_enabled"				: "Item is enabled",
+			"is_enabled_help"			: "Easily enable or disable the item completely."
+		},
+
+		"error_message": {
+			"url_exists"				: "This item already exists. Please choose a new one!",
+			"items_limit"				: "Your current plan does not allow you to create another item."
+		}
+	},
+
+	"item_create": {
+		"breadcrumb"					: "Create item",
+		"title"							: "Create item",
+		"header"						: "Create a new item",
+
+		"success_message"				: "Your new item has been created and is now ready!"
+	},
+
+	"item_update": {
+		"breadcrumb"					: "Edit item",
+		"title"							: "Edit %s item",
+		"header"						: "Edit %s item",
+
+		"success_message"				: "Your item has been updated with the new settings!"
+	},
+
+	"item_delete_modal": {
+		"header"						: "Delete item",
+		"subheader"						: "By deleting the item, all the data associated with the item will be lost. This action cannot be undone.",
+
+		"success_message"				: "Item deletion was performed successfully!"
+	},
+
+	"item_extra": {
+		"breadcrumb"					: "Item extra",
+		"title"							: "Item extra",
+		"header"						: "%s item extra",
+		"create"						: "Create item extra",
+
+		"item_extras"					: "Item extras",
+		"datetime"						: "Created on %s",
+		"price_currency"				: "%s %s",
+
+		"input": {
+			"name"						: "Name",
+			"name_placeholder"			: "My awesome item extra",
+			"description"				: "Description",
+			"description_help"			: "Short description of your item extra.",
+			"price"						: "Price",
+			"is_enabled"				: "Item extra is enabled",
+			"is_enabled_help"			: "Easily enable or disable the item extra completely."
+		},
+
+		"no_data"						: "There are no created item extras for this item",
+		"no_data_help"					: "Start by creating your first item extra."
+	},
+
+	"item_extra_create": {
+		"breadcrumb"					: "Create item extra",
+		"title"							: "Create item extra",
+		"header"						: "Create a new item extra",
+
+		"success_message"				: "Your new item extra has been created and is now ready!"
+	},
+
+	"item_extra_update": {
+		"breadcrumb"					: "Edit item extra",
+		"title"							: "Edit %s item extra",
+		"header"						: "Edit %s item extra",
+
+		"success_message"				: "Your item extra has been updated with the new settings!"
+	},
+
+	"item_extra_delete_modal": {
+		"header"						: "Delete item extra",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Item extra deletion was performed successfully!"
+	},
+
+	"item_option": {
+		"breadcrumb"					: "Item option",
+		"title"							: "Item option",
+		"header"						: "%s item option",
+		"create"						: "Create item option",
+
+		"item_options"					: "Item options",
+		"datetime"						: "Created on %s",
+		"options"						: "Options: %s",
+
+		"input": {
+			"name"						: "Name",
+			"name_placeholder"			: "My awesome item option",
+			"options"					: "Options",
+			"options_placeholder"		: "Ex: small, medium, large.",
+			"options_help"				: "Enter comma separated values."
+		},
+
+		"no_data"						: "There are no created item options for this item",
+		"no_data_help"					: "Start by creating your first item option."
+	},
+
+	"item_option_create": {
+		"breadcrumb"					: "Create item option",
+		"title"							: "Create item option",
+		"header"						: "Create a new item option",
+
+		"success_message"				: "Your new item option has been created and is now ready!"
+	},
+
+	"item_option_update": {
+		"breadcrumb"					: "Edit item option",
+		"title"							: "Edit %s item option",
+		"header"						: "Edit %s item option",
+
+		"success_message"				: "Your item option has been updated with the new settings!"
+	},
+
+	"item_option_delete_modal": {
+		"header"						: "Delete item option",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Item option deletion was performed successfully!"
+	},
+
+	"item_variant": {
+		"breadcrumb"					: "Item variant",
+		"title"							: "Item variant",
+		"header"						: "%s item variant",
+		"create"						: "Create item variant",
+
+		"item_variants"					: "Item variants",
+		"datetime"						: "Created on %s",
+		"price_currency"				: "%s %s",
+
+		"input": {
+			"price"						: "Price",
+			"is_enabled"				: "Item variant is enabled",
+			"is_enabled_help"			: "Easily enable or disable the item variant completely."
+		},
+
+		"no_data"						: "There are no created item extras for this item",
+		"no_data_help"					: "Start by creating your first item extra."
+	},
+
+	"item_variant_create": {
+		"breadcrumb"					: "Create item variant",
+		"title"							: "Create item variant",
+		"header"						: "Create a new item variant",
+
+		"success_message"				: "Your new item variant has been created and is now ready!"
+	},
+
+	"item_variant_update": {
+		"breadcrumb"					: "Edit item variant",
+		"title"							: "Edit item variant",
+		"header"						: "Edit item variant",
+
+		"success_message"				: "Your item variant has been updated with the new settings!"
+	},
+
+	"item_variant_delete_modal": {
+		"header"						: "Delete item variant",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Item variant deletion was performed successfully!"
+	},
+
+	"index": {
+		"breadcrumb"					: "Home",
+		"menu"							: "Home",
+		"title"							: "Touchless QR Menus",
+		"meta_description"				: "",
+		"meta_keywords"					: "",
+
+		"header"						: "Touchless QR Menus",
+		"subheader"						: "The %1$seasiest%2$s, %1$ssafest%2$s and %1$smost practical%2$s way of managing your stores menus dynamically. Simple, easy and fast for your customers.",
+		"button"						: "Get started",
+
+		"feature":{
+			"one"						: "Real-time changes",
+			"two"						: "No mobile app required",
+			"three"						: "Analytics included"
+		},
+
+		"example":{
+			"header"					: "Check out an example",
+			"subheader"					: "Simply scan the following QR code with your phone.",
+			"button"					: "View example menu"
+		},
+
+		"demo": {
+			"header"					: "Your store menu up and running, %sasap%s!",
+			"one"						: "Create & configure your store",
+			"two"						: "Print your store QR code",
+			"three"						: "Display the QR at your store"
+		},
+
+		"extras_options_variants": {
+			"name"						: "Item variations",
+			"header"					: "Item extras, options & variants",
+			"subheader"					: "Easily build the perfect item combinations."
+		},
+
+		"lightweight": {
+			"name"						: "Performant store pages",
+			"header"					: "Fast, lightweight & minimal",
+			"subheader"					: "All your stores get a nice looking & lightweight design at fast speeds."
+		},
+
+		"analytics": {
+			"name"						: "Analytics",
+			"header"					: "Ready to go analytics",
+			"subheader"					: "All your stores get proper analytics, day by day."
+		},
+
+		"pricing": {
+			"header"					: "Choose your plan",
+			"header_help"				: "Ready to start?"
+		},
+
+		"cta": {
+			"header"					: "Get started",
+			"subheader"					: "Easily manage all your store menus online and share them via QR.",
+			"pricing"					: "Pricing",
+			"register"					: "Sign up"
+		}
+	},
+
+	"api": {
+		"error_message": {
+			"no_bearer"					: "The request is missing the Bearer Authentication header.",
+			"no_access"					: "You do not have access to the API.",
+			"rate_limit"				: "You reached the limit of requests in one minute, please wait."
+		}
+	},
+
+	"api_documentation": {
+		"breadcrumb"					: "API Documentation",
+		"title"							: "API Documentation",
+		"header"						: "API Documentation",
+		"subheader"						: "This is the documentation for the available API endpoints, which are built around the <strong>REST architecture</strong>. All the API endpoints will return a <strong>JSON response</strong> with the standard <strong>HTTP response codes</strong> and need a <strong>Bearer Authentication via an API Key</strong>.",
+
+		"endpoint"						: "Endpoint",
+		"example"						: "Example",
+		"response"						: "Response example",
+		"api_key"						: "Get API Key",
+		"base_url"						: "Base URL",
+		"parameters"					: "Parameters",
+		"required"						: "Required",
+		"optional"						: "Optional",
+
+		"authentication": {
+			"header"					: "Authentication",
+			"subheader"					: "All the API endpoints require an API key sent by the <strong>Bearer Authentication method.</strong>"
+		},
+
+		"user": {
+			"header"					: "User",
+			"subheader"					: "This API endpoint is responsible for retrieving all the related user data.",
+
+			"get": {
+				"header"				: "Retrieve user",
+				"subheader"				: "This endpoint is made to retrieve the details of your own account."
+			}
+		}
+	},
+
+	"admin_pages_categories": {
+		"header"						: "Pages categories",
+		"header_no_data"				: "Create your first page category",
+		"subheader_no_data"				: "Sort your additional pages by categories.",
+		"create"						: "Create category",
+
+		"pages_categories": {
+			"pages_category"			: "Category",
+			"total_pages"				: "%s pages"
+		},
+
+		"main": {
+			"header"					: "Main",
+			"subheader"					: "The main settings of the page category."
+		},
+
+		"secondary": {
+			"header"					: "Secondary",
+			"subheader"					: "Extra settings for the page category."
+		},
+
+		"input": {
+			"url"						: "Slug",
+			"url_placeholder"			: "your-pages-category-url",
+			"title"						: "Title",
+			"description"				: "Short description",
+			"icon"						: "Icon",
+			"icon_placeholder"			: "ex: fa fa-plane",
+			"icon_help"					: "Font Awesome icon, leave empty for no icon.",
+			"order"						: "Order",
+			"order_help"				: "Easily arrange pages categories with numbers. Displaying on the website is ascendent."
+		}
+	},
+
+	"admin_pages_category_create": {
+		"title"							: "Create pages category",
+		"header"						: "Create a new pages category"
+	},
+
+	"admin_pages_category_update": {
+		"title"							: "Update pages category",
+		"header"						: "Update pages category"
+	},
+
+	"admin_pages_category_delete_modal": {
+		"header"						: "Delete Pages Category",
+		"subheader"						: "All the pages inside this category will be deleted as well. This action cannot be undone.",
+
+		"success_message"				: "Pages category deletion was performed successfully!"
+	},
+
+	"admin_pages": {
+		"title"							: "Pages management",
+		"menu"							: "Pages",
+		"header"						: "Pages",
+		"header_no_data"				: "Create your first page",
+		"subheader_no_data"				: "Create additional pages that you can attach to the platform with ease.",
+		"create"						: "Create page",
+
+		"pages": {
+			"page"						: "Page",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Bottom menu",
+			"position_hidden"			: "Hidden",
+			"total_views"				: "%s views"
+		},
+
+		"main": {
+			"header"					: "Main",
+			"subheader"					: "The main settings of the page."
+		},
+
+		"secondary": {
+			"header"					: "Secondary",
+			"subheader"					: "Extra settings for the page."
+		},
+
+		"input": {
+			"title"						: "Title",
+			"description"				: "Short description",
+			"url_internal"				: "Slug",
+			"url_internal_placeholder"	: "ex: page-url",
+			"url_external"				: "External Url",
+			"url_external_placeholder"	: "ex: https://domain.com/",
+			"content"					: "Content",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Bottom menu",
+			"position_hidden"			: "Hidden",
+			"type"						: "Type",
+			"type_internal"				: "Internal",
+			"type_external"				: "External",
+			"pages_category_id"			: "Category",
+			"pages_category_id_null"	: "No category",
+			"order"						: "Order",
+			"order_help"				: "Easily arrange pages with numbers. Displaying on the website is ascendent.",
+			"date"						: "First created on",
+			"last_date"					: "Last edited on"
+		}
+	},
+
+	"admin_page_delete_modal": {
+		"header"						: "Delete Page",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Page deletion was performed successfully!"
+	},
+
+	"admin_page_create": {
+		"title"							: "Create Page",
+		"header"						: "Create Page"
+	},
+
+	"admin_page_update": {
+		"title"							: "Page Update",
+		"header"						: "Page Update"
+	},
+
+	"admin_plans": {
+		"title"							: "Plans management",
+		"menu"							: "Plans",
+		"header"						: "Plans management",
+		"create"						: "Create Plan",
+
+		"table": {
+			"name"						: "Plan Name",
+			"custom_help"				: "Custom plans can be defined directly from the User Update page.",
+			"monthly_price"				: "Monthly Price",
+			"annual_price"				: "Annual Price",
+			"users"						: "Users",
+			"status"					: "Status"
+		},
+
+		"main": {
+			"header"					: "Main",
+			"subheader"					: "Define the main settings of the plan.",
+
+			"trial": {
+				"days"					: "Days",
+				"days_help"				: "The number of days that the trial plan can be used."
+			},
+
+			"name"						: "Name",
+			"monthly_price"				: "Monthly Price",
+			"annual_price"				: "Annual Price",
+			"lifetime_price"			: "Lifetime deal price",
+			"price_help"				: "Set 0 to disable the %s",
+			"status"					: "Status",
+			"taxes_ids"					: "Applied Taxes",
+			"taxes_ids_help"			: "Easily select which of your %screated taxes%s you want to apply per plan."
+		},
+
+		"plan": {
+			"header"					: "Plan Settings",
+			"subheader"					: "Choose which features to enable for this plan.",
+
+			"stores_limit"				: "Total stores limit",
+			"stores_limit_help"			: "Set -1 for unlimited.",
+			"menus_limit"				: "Total menus limit",
+			"menus_limit_help"			: "Set -1 for unlimited.",
+			"categories_limit"			: "Total categories limit",
+			"categories_limit_help"		: "Set -1 for unlimited.",
+			"items_limit"				: "Total items limit",
+			"items_limit_help"			: "Set -1 for unlimited.",
+			"domains_limit"				: "Total custom domains limit",
+			"domains_limit_help"		: "Set -1 for unlimited.",
+			"no_ads"					: "No Ads",
+			"no_ads_help"				: "Enabling this will make all people having this plan to not see any ads.",
+			"ordering_is_enabled"					: "Ordering System",
+			"ordering_is_enabled_help"				: "Enable access to the ordering system of the stores.",
+			"additional_domains_is_enabled"			: "Additional domains",
+			"additional_domains_is_enabled_help"	: "Enable access to the additional custom domains that the admin has added via the admin panel.",
+			"password_protection_is_enabled"		: "Password protection",
+			"password_protection_is_enabled_help"	: "Enable access to password protect stores.",
+			"analytics_is_enabled"					: "Analytics",
+			"analytics_is_enabled_help"				: "Enable analytics for stores.",
+			"removable_branding_is_enabled"			: "Removable branding",
+			"removable_branding_is_enabled_help"	: "Enable ability to remove the branding from the store pages.",
+			"custom_url_is_enabled"					: "Custom back-half URL",
+			"custom_url_is_enabled_help"			: "Enable ability to choose a custom URL when creating a store.",
+			"search_engine_block_is_enabled"		: "Block Search Engine indexing",
+			"search_engine_block_is_enabled_help"	: "Enable ability to block search engines from indexing stores.",
+			"custom_css_is_enabled"					: "Custom CSS",
+			"custom_css_is_enabled_help"			: "Enable ability to add custom css for each store.",
+			"custom_js_is_enabled"					: "Custom JS",
+			"custom_js_is_enabled_help"				: "Enable ability to add custom js for each store.",
+			"email_reports_is_enabled"				: "Email Reports",
+			"email_reports_is_enabled_help"			: "Enable ability for the user to get analytics email reports for each store."
+		}
+	},
+
+	"admin_plan_delete_modal": {
+		"header"						: "Delete Plan",
+		"subheader"						: "By deleting the plan, all the recurring subscriptions of this plan will be cancelled. Users will still have their features they paid for until the Expiration Date of the plan. This action cannot be undone.",
+
+		"success_message"				: "Plan deletion was performed successfully!"
+	},
+
+	"admin_plan_create": {
+		"title"							: "Create Plan",
+		"menu"							: "Create Plan",
+		"header"						: "Create a new plan"
+	},
+
+	"admin_plan_update": {
+		"title"							: "Update plan",
+		"header"						: "Update the %s plan",
+
+		"update_users_plan_settings": {
+			"button"					: "Update and update plan subscribers as well",
+			"button_help"				: "By updating the plan subscribers you will overwrite all their current settings with the new settings of this plan."
+		},
+
+		"error_message": {
+			"disabled_plans"			: "You are not allowed to disable all the plans which are available (Custom plans are not considered if the payment system is disabled)."
+		}
+	},
+
+	"admin_codes": {
+		"title"							: "Codes management",
+		"menu"							: "Codes",
+		"header"						: "Codes management",
+		"header_no_data"				: "Create your first code",
+		"subheader_no_data"				: "Create discount codes or fully redeemable codes that you can share to your users.",
+		"create"						: "Create code",
+
+		"table": {
+			"code"						: "Code",
+			"type"						: "Type",
+			"plan_id"					: "Plan",
+			"plan_id_null"				: "All plans",
+			"discount"					: "Discount",
+			"quantity"					: "Quantity",
+			"redeemed_codes"			: "Redeemed"
+		},
+
+		"main": {
+			"header"					: "Code settings",
+			"subheader"					: "Generate the code depending on the usage you want from it.",
+
+			"type"						: "Type",
+			"type_discount"				: "Discount",
+			"type_redeemable"			: "Redeemable",
+			"plan_id"					: "Plan",
+			"plan_id_help"				: "Which plan to make the code available for.",
+			"plan_id_null"				: "All plans",
+			"days"						: "Days",
+			"days_help"					: "How many days will the plan be available for.",
+			"code"						: "Code",
+			"discount"					: "Discount Percentage",
+			"discount_help"				: "Choose a discount between 1% and 99% off for the code",
+			"quantity"					: "Quantity",
+			"quantity_help"				: "How many time the code can be used."
+		}
+
+	},
+
+	"admin_code_delete_modal": {
+		"header"						: "Delete Code",
+		"subheader"						: "By deleting the code the users payment plans will not . This action cannot be undone.",
+
+		"success_message"				: "Code deletion was performed successfully!"
+	},
+
+	"admin_code_create": {
+		"title"							: "Create Code",
+		"menu"							: "Create Code",
+		"header"						: "Create a new code"
+	},
+
+	"admin_code_update": {
+		"title"							: "Edit Code",
+		"header"						: "Edit Code",
+		"subheader"						: "Changing the settings will not have any effect on already redeemed or used codes."
+	},
+
+	"admin_taxes": {
+		"title"							: "Taxes management",
+		"menu"							: "Taxes",
+		"header"						: "Taxes management",
+		"header_no_data"				: "Create your first tax",
+		"subheader_no_data"				: "Create taxes that you can use and apply to paid plans.",
+		"create"						: "Create tax",
+
+		"table": {
+			"tax"						: "Tax",
+			"name"						: "Name",
+			"details"					: "Details",
+			"billing_type"				: "Billing for"
+		},
+
+		"main": {
+			"header"					: "Tax settings",
+			"subheader"					: "Generate the tax depending on how you need them to be applied on payments.",
+
+			"internal_name"				: "Internal name",
+			"internal_name_help"		: "This name won't be shown to the user.",
+			"name"						: "Tax name",
+			"description"				: "Tax description",
+			"value"						: "Tax Value",
+			"value_type"				: "Value Type",
+			"value_type_percentage"		: "Percentage",
+			"value_type_fixed"			: "Fixed",
+			"type"						: "Type",
+			"type_inclusive"			: "Inclusive",
+			"type_exclusive"			: "Exclusive",
+			"billing_type"				: "Billing for",
+			"billing_type_personal"		: "Personal only",
+			"billing_type_business"		: "Business only",
+			"billing_type_both"			: "Personal & Business",
+			"billing_type_help"			: "Select for who you want to apply this tax for.",
+			"countries"					: "Countries",
+			"countries_help"			: "Select the countries that you want to apply this tax on. Leave empty if you want the tax to be applied for all countries."
+		}
+
+	},
+
+	"admin_tax_create": {
+		"title"							: "Create Tax",
+		"menu"							: "Create Tax",
+		"header"						: "Create a new tax",
+		"subheader"						: "Once a tax is created, it can't be edited or deleted. After the tax is created, you can associate it with your created Plans."
+	},
+
+	"admin_tax_update": {
+		"title"							: "Edit Tax",
+		"header"						: "Edit Tax"
+	},
+
+	"admin_payments": {
+		"title"							: "Payments List",
+		"header"						: "Payments List",
+		"menu"							: "Payments",
+
+		"table": {
+			"type"						: "Type",
+			"user_email"				: "User",
+			"email"						: "Email",
+			"user"						: "User",
+			"date"						: "Date",
+			"name"						: "Full Name",
+			"total_amount"				: "Total Amount",
+			"currency"					: "",
+			"action_view_proof"			: "View proof",
+			"action_approve_proof"		: "Approve payment",
+			"invoice"					: "Invoice"
+		}
+	},
+
+	"admin_payment_delete_modal": {
+		"header"						: "Delete payment",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Payment deletion was performed successfully!"
+	},
+
+	"admin_payment_approve_modal": {
+		"header"						: "Approve payment",
+		"subheader"						: "If you approve the payment, the plan for the user will start.",
+
+		"success_message"				: "Payment approval was performed successfully!"
+	},
+
+	"admin_index": {
+		"title"							: "Admin Dashboard",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
+
+		"display": {
+			"stores_month" 				: "New stores this month",
+			"stores"					: "Total stores",
+			"payments_month"			: "Payments this month",
+			"payments"					: "Total payments",
+			"earnings_month"			: "Earnings this month",
+			"earnings"					: "Total earnings",
+			"active_users_month"		: "Active users this month",
+			"active_users"				: "Total users"
+		},
+
+		"users": {
+			"header"					: "Latest users",
+
+			"user"						: "User"
+		},
+
+		"websites": {
+			"header"					: "Latest websites",
+
+			"website"					: "Website",
+			"user"						: "User"
+		},
+
+		"payments": {
+			"header"					: "Latest payments",
+
+			"user"						: "User",
+			"payment"					: "Payment"
+		}
+	},
+
+	"admin_users": {
+		"title"							: "Users management",
+		"header"						: "Users management",
+		"menu"							: "Users",
+
+		"table": {
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"active"					: "Status",
+			"plan_id"					: "Plan",
+			"registration_date"			: "Reg. Date",
+			"actions"					: "Actions"
+		},
+
+		"tooltip": {
+			"owner"						: "Owner",
+			"plan"						: "Current Plan"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "By deleting this user, everything that is linked to that user will be deleted!"
+		},
+
+		"error_message": {
+			"self_delete"				: "You can't delete yourself!",
+			"self_status"				: "You can't change your own status!"
+		},
+
+		"display": {
+			"admin"						: "Admin",
+			"search_placeholder"		: "Search by username, name or email.."
+		}
+	},
+
+	"admin_user_delete_modal": {
+		"header"						: "Delete User",
+		"subheader"						: "By deleting the user, everything that is linked to the user will be deleted. This action cannot be undone.",
+
+		"success_message"				: "User deletion was performed successfully!"
+	},
+
+	"admin_user_login_modal": {
+		"header"						: "Login as this user",
+		"subheader"						: "By logging in as another user, you will be logged out of the current account and fully logged in to this user.",
+
+		"success_message"				: "Successfully logged in as %s! To get out of this account simply use the logout function."
+	},
+
+	"admin_user_create": {
+		"title"							: "Create User",
+		"header"						: "Create User",
+		"menu"							: "Create User",
+
+		"form": {
+			"name"						: "Name",
+			"name_placeholder"			: "Full name",
+			"email"						: "Email",
+			"email_placeholder"			: "email@domain.com",
+			"password"					: "Password",
+			"password_placeholder"		: "Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"error_message": {
+			"username_length"			: "Username must be between 3 and 32 characters!",
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"email_exists"				: "This email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Entered passwords do not match",
+			"username_characters"		: "You can only use letters, digits and the '.', '_' characters for the username field"
+		},
+
+		"success_message": {
+			"created"					: "Account has been created!"
+		}
+	},
+
+	"admin_user_update": {
+		"title"							: "Edit User",
+		"header"						: "Edit User",
+
+		"main": {
+			"header"					: "Main",
+			"subheader"					: "Profile details, status and permissions of the account.",
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"is_enabled"				: "Account Status",
+			"is_enabled_active"			: "Active",
+			"is_enabled_unconfirmed"	: "Unconfirmed",
+			"is_enabled_disabled"		: "Disabled",
+			"type"						: "User Privileges",
+			"type_help"					: "Admin users will have the same privileges as you, be careful!",
+			"type_admin"				: "Admin",
+			"type_user"					: "User"
+		},
+
+		"plan": {
+			"header"					: "Plan",
+			"subheader"					: "Change and update the plan of the user.",
+			"plan_id"			    	: "Current Plan",
+			"plan_expiration_date"   	: "Plan Expiration Date",
+			"plan_expiration_date_invalid"   	: "Keep in mind, this plan expiration date is in the past. You can still save it like this, though.",
+			"plan_trial_done"			: "Plan Trial Done"
+		},
+
+		"change_password": {
+			"header"					: "Change Password",
+			"subheader"					: "Leave it empty if you don't want to change the user's password!",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"error_message": {
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"invalid_account"			: "That account wasn't found!",
+			"email_exists"				: "We're sorry, but that email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match!"
+		}
+	},
+
+	"admin_user_view": {
+		"title"							: "View User",
+		"header"						: "View User",
+
+		"main": {
+			"ip"						: "IP",
+			"country"					: "Country",
+			"name"						: "Name",
+			"email"						: "Email",
+			"status"					: "Status",
+			"status_active"				: "Active",
+			"status_disabled"			: "Disabled",
+			"type"						: "Privileges",
+			"type_help"					: "Admin users will have the same privileges as you, be careful!",
+			"type_admin"				: "Admin",
+			"type_user"					: "User",
+			"last_activity"				: "Last active",
+			"last_user_agent"			: "Last User Agent",
+			"plan_trial_done"			: "Trial is done",
+			"plan"						: "Current Plan",
+			"plan_expiration_date"		: "Plan expiration date",
+			"total_logins"				: "Total logins",
+			"language"					: "Language",
+			"timezone"					: "Timezone"
+		},
+
+		"stores"						: "Stores",
+		"menus"							: "Menus",
+		"categories"					: "Categories",
+		"items"							: "Items",
+		"payments"						: "Payments",
+
+		"logs": {
+			"header"					: "Last Activity",
+			"subheader"					: "Last recorded activity",
+			"type"						: "Type",
+			"ip"						: "IP",
+			"date"						: "Date"
+		}
+	},
+
+	"admin_stores": {
+		"title"							: "Stores",
+		"header"						: "Stores",
+		"menu"							: "Stores",
+
+		"table": {
+			"email"						: "User",
+			"name"						: "Store name",
+			"url"						: "URL",
+			"pageviews"					: "Pageviews",
+			"is_enabled"				: "Status",
+			"datetime"					: "Date"
+		}
+	},
+
+	"admin_store_delete_modal": {
+		"header"						: "Delete store",
+		"subheader"						: "By deleting the store, everything that is associated with the store will be deleted. This action cannot be undone.",
+
+		"success_message"				: "Store deletion was performed successfully!"
+	},
+
+	"admin_domains": {
+		"title"							: "Domains management",
+		"header"						: "Domains management",
+		"menu"							: "Domains",
+
+		"table": {
+			"type"						: "Type",
+			"email"						: "User",
+			"host"						: "URL",
+			"stores"					: "Stores",
+			"datetime"					: "Date",
+			"is_enabled"				: "Status"
+		},
+
+		"main": {
+			"helper"					: "Make sure that your domain or subdomain has an A record pointing to %s or CNAME record pointing to %s.",
+			"scheme"					: "Scheme",
+			"host"						: "Domain",
+			"host_placeholder"			: "domain.com",
+			"host_help"					: "Only <code>subdomain.domain.com</code> and <code>domain.com</code> formats are allowed (subdomains or root domains).",
+			"custom_index_url"			: "Custom index url",
+			"custom_index_url_help"			: "Redirect to a specific url when visitors land on the index of the domain. Only works if the domain doesn't have a main store associated to it.",
+			"custom_index_url_placeholder"	: "https://domain.com/",
+			"is_enabled"				: "Status",
+			"type_global"				: "Additional global domain",
+			"type_user"					: "Submitted custom domain"
+		}
+	},
+
+	"admin_domain_delete_modal": {
+		"header"						: "Delete domain",
+		"subheader"						: "By deleting the domain, everything that is associated with the domain will be deleted, including all the associated stores. This action cannot be undone.",
+
+		"success_message"				: "Domain deletion was performed successfully!"
+	},
+
+	"admin_domain_create": {
+		"title"							: "Add additional global domain",
+		"header"						: "Add additional global domain",
+		"subheader"						: "Make sure to properly read the Documentation on how to setup Custom Domains.",
+		"menu"							: "Add domain"
+	},
+
+	"admin_domain_update": {
+		"title"							: "Update domain",
+		"header"						: "Update domain"
+	},
+
+	"admin_settings": {
+		"title"							: "Website Settings",
+		"menu"							: "Website Settings",
+		"header"						: "Website Settings",
+		"documentation"					: "Read the Documentation to get more details on certain available configurations.",
+
+		"tab": {
+			"main"						: "Main",
+			"payment"					: "Payment",
+			"business"					: "Business",
+			"stores"					: "Stores",
+			"facebook"					: "Facebook Login",
+			"captcha"					: "Google Recaptcha",
+			"ads"						: "Ads",
+			"socials"					: "Socials",
+			"smtp"						: "SMTP",
+			"custom"					: "Custom JS / CSS",
+			"email_notifications"		: "Email Notifications",
+            "cron"                      : "Cron",
+			"license"					: "License"
+		},
+
+		"main": {
+			"title"						: "Website title",
+			"default_language"			: "Default language",
+			"default_language_help"		: "To add more languages, please consult the documentation.",
+			"logo"						: "Logo",
+			"logo_help"					: "jpg, jpeg, png and svg accepted. Recommended size: Max height of 40px and transparent.",
+			"logo_remove"				: "Remove logo",
+			"favicon"					: "Favicon",
+			"favicon_help"				: "jpg, jpeg, png and ico accepted.",
+			"favicon_remove"			: "Remove favicon",
+			"email_confirmation"		: "Email confirmation",
+			"email_confirmation_help"	: "Send out email an confirmation when a user registers or changes his email address.",
+			"register_is_enabled"		: "Enable new users registration",
+			"register_is_enabled_help"	: "Allow people to register on your platform or completely disable the register page.",
+			"default_timezone"			: "Default timezone",
+			"default_timezone_help"		: "The default timezone for users when they are registering (they can change it later on).",
+			"index_url"					: "Custom landing page URL",
+			"index_url_help"			: "Set the full custom index url ( ex: https://google.com/ ) if you want to completely disable the default landing page of the product. Helpful when you want to have your own landing page. Leave empty to disable.",
+			"terms_and_conditions_url"		: "Terms and Conditions URL",
+			"terms_and_conditions_url_help"	: "Link to the terms and conditions of the website. Can be a link created with the Pages creator from the sidebar.",
+			"privacy_policy_url"			: "Privacy Policy URL",
+			"privacy_policy_url_help"		: "Link to the privacy policy of the website. Can be a link created with the Pages creator from the sidebar."
+		},
+
+		"payment": {
+			"is_enabled"				: "Enable Payments System",
+			"is_enabled_help"			: "Disabling the payment system will remove all the options for the users to upgrade their accounts or see any payment related information.",
+			"type"						: "Enabled payment types",
+			"type_help"					: "",
+			"type_one_time"				: "One Time",
+			"type_recurring"			: "Recurring",
+			"type_both"					: "Both",
+			"brand_name"				: "Brand Name",
+			"brand_name_help"			: "The brand name will be used for displaying the brand when users purchase via payment gates. (ex: paypal)",
+			"currency"					: "Currency",
+			"currency_help"				: "Currency Code for the payments (ex: USD).",
+			"codes_is_enabled" 			: "Enable Discount/Redeemable Codes",
+			"codes_is_enabled_help" 	: "Enabling the discount codes system will enable users to add a discount code created from the admin panel, before they checkout.",
+			"taxes_and_billing_is_enabled"		: "Enable Taxes & Billing system",
+			"taxes_and_billing_is_enabled_help"	: "Enabling this feature will require users to fill in their Billing info before checking out and you will also be able to create taxes for each created plan.",
+
+			"paypal"					: "Paypal Settings",
+			"paypal_is_enabled"			: "Enable Paypal payments",
+			"paypal_mode"				: "Mode",
+			"paypal_mode_help"			: "live - production, sandbox - testing purposes",
+			"paypal_client_id"			: "Client Id",
+			"paypal_secret"				: "Secret",
+
+			"stripe"					: "Stripe Settings",
+			"stripe_is_enabled"			: "Enable Stripe payments",
+			"stripe_publishable_key"	: "Publishable Key",
+			"stripe_secret_key"			: "Secret Key",
+			"stripe_webhook_secret"		: "Webhook Secret",
+
+			"offline_payment"			: "Offline payments",
+			"offline_payment_is_enabled": "Enable offline payments",
+			"offline_payment_instructions"		: "Instructions",
+			"offline_payment_instructions_help"	: "Payment instructions for the user to see, before submitting the payment."
+		},
+
+		"business": {
+			"header"					: "Business Details",
+			"subheader"					: "These details will be used when generating invoices for the user.",
+			"invoice_is_enabled"		: "Enable Invoices System",
+			"invoice_is_enabled_help"	: "This option will determine if users will be able to see invoices for their payments or not.",
+			"invoice_nr_prefix"			: "Invoice Nr Prefix",
+			"invoice_nr_prefix_help"	: "Your Nr Prefix for all the invoices generated on the system. Ex: INV-",
+			"name"						: "Name",
+			"address"					: "Address",
+			"city"						: "City",
+			"county"					: "County",
+			"zip"						: "ZIP",
+			"country"					: "Country",
+			"email"						: "Email",
+			"phone"						: "Phone",
+			"tax_type"					: "Tax Type",
+			"tax_type_placeholder"		: "ex: VAT",
+			"tax_id"					: "Tax ID",
+			"custom_key_one"			: "Custom Field Name",
+			"custom_value_one"			: "Custom Field Value",
+			"custom_key_two"			: "Custom Field Name",
+			"custom_value_two"			: "Custom Field Value"
+		},
+
+		"stores": {
+			"domains_is_enabled"			: "Enable the Custom Domains system",
+			"domains_is_enabled_help"		: "Enabling this will give your users the ability to add and use custom domains.",
+			"additional_domains_is_enabled"				: "Enable the Additional Custom Domains system",
+			"additional_domains_is_enabled_help"		: "Enabling this will give you the ability to add global domains via the admin panel that your users can use as additional domains.",
+			"main_domain_is_enabled"		: "Enable the usage of the main domain",
+			"main_domain_is_enabled_help"	: "Enabling this will give your users the ability to use the main domain to short urls and create biolink pages. This function will only work if the Custom Domains system is enabled and there is at least one global custom domain available. Even if this option is disabled, admins will still be allowed to use the main domain.",
+			"email_reports_is_enabled"			: "Email reports system",
+			"email_reports_is_enabled_weekly"	: "Weekly",
+			"email_reports_is_enabled_monthly"	: "Monthly",
+			"email_reports_is_enabled_help"		: "Enabling the email reports will give your users the ability to get email reports of their stores analytics. Make sure to have a proper email sending configuration via the SMTP tab."
+		},
+
+		"captcha": {
+			"recaptcha"					: "Google ReCaptcha",
+			"recaptcha_is_enabled"		: "Enable Google ReCaptcha",
+			"recaptcha_is_enabled_help"	: "When Google Recaptcha is disabled a more basic captcha will be available.",
+			"recaptcha_public_key"		: "Public Key",
+			"recaptcha_private_key"		: "Private Key"
+		},
+
+		"facebook": {
+			"is_enabled"				: "Enable Facebook Login",
+			"app_id"					: "App Id",
+			"app_secret"				: "App Secret"
+		},
+
+		"ads": {
+			"ads_help"					: "These fields accept text, html or javascript.",
+
+			"header"					: "Header",
+			"footer"					: "Footer",
+			"header_restaurant"			: "Restaurant Header",
+			"footer_restaurant"			: "Restaurant Footer"
+		},
+
+		"socials": {
+			"socials_help"				: "Social links to be displayed in the footer of the website. Enter only the id / name of the page"
+		},
+
+		"smtp": {
+			"host"						: "Host",
+			"host_help"					: "If there are no values entered in this field then the system will try to use the default mail function.",
+			"from"						: "From Email",
+			"from_help"					: "The email that the users get the email from / the 'reply-to' email ( registration / email activation / lost password )",
+			"encryption"				: "Encryption",
+			"port"						: "Port",
+			"auth"						: "Authentication",
+			"username"					: "Username",
+			"password"					: "Password"
+		},
+
+		"custom": {
+			"head_js"                   : "Head Javascript",
+			"head_js_help"              : "Add your own tracking js code ( ex: Google Analytics ).",
+			"head_css"                  : "Custom CSS",
+			"head_css_help"             : "Add custom CSS in case you want to overwrite certain styles of the website."
+		},
+
+		"email_notifications": {
+			"emails"					: "Emails to be notified",
+			"emails_help"				: "Emails that will receive a notification when one of the actions from below are performed. Add valid email addresses separated by a comma.",
+			"new_user"					: "New User",
+			"new_user_help"				: "Receive an email when a new users registers to the website.",
+			"new_payment"				: "New Payment",
+			"new_payment_help"			: "Receive an email when a new payment is successfully processed."
+		},
+
+        "cron": {
+            "url"                       : "Cron Job Url",
+            "url_help"                  : "This cron job url contains your key of access also. Only calls with this exact url will work."
+        },
+
+		"license": {
+			"license"					: "License / Purchase Code",
+			"license_help"				: "The license you got from purchasing the product.",
+			"type"						: "License Type",
+			"new_license"				: "New License",
+			"new_license_help"			: "Leave empty if you don't want to change it. Useful when changing your license or upgrading to a new one (ex: from Regular License to Extended )"
+		},
+
+
+		"button": {
+			"test_email"				: "Test Email Settings",
+			"test_email_help"			: "It will send an email to the value from the <strong>From</strong> field that you set above. Make sure to first save the settings!"
+		},
+
+		"success_message": {
+			"saved"						: "Website settings have been saved!",
+			"email"						: "The test email has been sent successfully!"
+		},
+
+		"error_message": {
+			"email"						: "Test email failed: %s"
+		}
+
+	},
+
+	"admin_statistics": {
+		"title"							: "Website Statistics",
+		"menu"							: "Statistics",
+		"header"						: "Statistics",
+		"subheader"						: "See how your website evolves throughout time.",
+
+		"payments": {
+			"menu"						: "Payments",
+			"header"					: "Sales",
+			"subheader"					: "This website has generated %s %s revenue on %s sales.",
+			"no_payments"				: "There are no recorded payments for this date range.",
+			"chart_total_payments"		: "Total sales",
+			"chart_total_amount"		: "Total earned"
+		},
+
+		"growth": {
+			"menu"						: "Growth",
+
+			"users": {
+				"header"				: "New registered users",
+				"chart"					: "Users"
+			},
+
+			"users_logs": {
+				"header"				: "Active users",
+				"chart"					: "Active users"
+			},
+
+			"redeemed_codes": {
+				"header"				: "Redeemed codes",
+				"chart"					: "Codes"
+			}
+		},
+
+
+		"stores": {
+			"menu"						: "Stores",
+
+			"stores": {
+				"header"				: "Stores",
+				"chart"					: "New stores"
+			},
+
+			"menus": {
+				"header"				: "Menus",
+				"chart"					: "New menus"
+			},
+
+			"categories": {
+				"header"				: "Menu categories",
+				"chart"					: "New categories"
+			},
+
+			"items": {
+				"header"				: "Menu items",
+				"chart"					: "New items"
+			}
+
+		},
+
+		"statistics": {
+			"menu"						: "Stores statistics",
+			"header"					: "Stores statistics",
+			"chart"						: "Pageviews"
+		},
+
+		"email_reports": {
+			"menu"						: "Email reports",
+			"header"					: "Email Reports",
+			"subheader"					: "How many email reports are sent out per day.",
+			"chart"						: "Email reports"
+		}
+	},
+
+	"notfound": {
+		"title"							: "Not found",
+		"header"						: "404 Not Found",
+		"subheader"						: "The page you’re looking for was not found."
+	},
+
+	"cron": {
+		"email_reports": {
+			"title"						: "Summary analytics for %s between %s and %s",
+			"p1"						: "Here is a short analytics overview of what happened on the %s store.",
+			"pageviews"					: "Pageviews",
+			"button"					: "Go to my dashboard",
+			"notice"					: "You are getting these emails because you have enabled email reports in your %sStore settings%s page."
+		}
+	},
+
+	"datatable": {
+		"sEmptyTable"					: "No data available in table",
+		"sInfo"							: "Showing _START_ to _END_ of _TOTAL_ entries",
+		"sInfoEmpty"					: "Showing 0 to 0 of 0 entries",
+		"sInfoFiltered"					: "(filtered from _MAX_ total entries)",
+		"sInfoPostFix"					: "",
+		"sInfoThousands"				: ",",
+		"sLengthMenu"					: "_MENU_",
+		"sLoadingRecords"				: "Loading...",
+		"sProcessing"					: "<div class=\"spinner-grow\"><span class=\"sr-only\">Loading...</span></div>",
+		"searchPlaceholder"				: "Search..",
+		"search"						: "",
+		"sZeroRecords"					: "No matching records found",
+		"oPaginate": {
+			"sFirst"					: "First",
+			"sLast"						: "Last",
+			"sNext"						: "Next",
+			"sPrevious"					: "Previous"
+		},
+		"oAria": {
+			"sSortAscending"			: ": activate to sort column ascending",
+			"sSortDescending"			: ": activate to sort column descending"
+		}
+	}
+}
